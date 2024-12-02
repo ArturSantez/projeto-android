@@ -30,7 +30,7 @@ header {
     background-image: linear-gradient(var(--cor1), var(--cor3));
     height: 150px;
     padding-top: 40px;
-    padding-bottom: 45px;
+    padding-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     text-align: center;
@@ -44,7 +44,7 @@ header > h1 {
 }
 header > p {
     text-shadow: 2px 1px 6px black;
-    margin: 30px auto 30px auto;
+    margin: 20px auto 20px auto;
     font-size: 1.2em;
     max-width: 400px;
     padding-right: 50px;
@@ -63,6 +63,7 @@ nav > a {
     margin-top: 20px;
     padding: 10px;
     transition-duration: 0.5s;
+    display: inline;
 }
 nav > a:hover {
     background-color: var(--cor1);
