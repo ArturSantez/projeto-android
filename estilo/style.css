@@ -44,16 +44,15 @@ header > h1 {
 }
 header > p {
     text-shadow: 2px 1px 6px black;
-    margin-top: 30px;
+    margin: 30px auto 30px auto;
     font-size: 1.2em;
-    max-width: 500px;
-    margin: auto;
+    max-width: 400px;
     padding-right: 50px;
     padding-left: 50px;
 }
 nav {
     background-color: var(--cor3);
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 9px;
     box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.384);
 }
@@ -61,6 +60,7 @@ nav > a {
     color: white;
     text-decoration: none;
     font-weight:bold;
+    margin-top: 20px;
     padding: 10px;
     transition-duration: 0.5s;
 }
