@@ -1,5 +1,6 @@
 # Projeto Android
-Bem vindo ao repositório do projeto "Android"!  Este projeto é site simples desenvolvido para compartilhar informações interessantes sobre o mascote oficial do Android, conhecido como **Bugdroid**, desde sua criação até curiosidades que moldaram o sistema operacional mais utilizado no mundo.
+🗒️O projeto Android é site simples desenvolvido para compartilhar informações interessantes sobre o mascote oficial do Android, conhecido como **Bugdroid**.
+Projeto desenvolvido durante o <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/">curso de HTML e CSS</a> oferecido pelo <a href="https://www.cursoemvideo.com/">CursoemVídeo</a>
 
 ## ✨ Sobre o Projeto
 O mascote do Android é mais do que apenas um ícone, ele representa a essência do sistema operacional que conecta bilhões de dispositivos ao redor do mundo. Neste site, você encontrará:
