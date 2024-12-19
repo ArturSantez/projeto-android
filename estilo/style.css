@@ -23,11 +23,16 @@
     --font-android: 'android', sans-serif; 
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     font-family: var(--font-padrao);
     background-color: var(--fundo);
-    margin: 0px;
 }
+
 header {
     background-image: linear-gradient(var(--cor1), var(--cor3));
     min-height: 150px;
@@ -35,6 +40,7 @@ header {
     color: whitesmoke;
     text-align: center;
 }
+
 header > h1 {
     font-family: var(--font-destaque);
     font-weight: normal;
@@ -42,6 +48,7 @@ header > h1 {
     font-size: 3em;
     text-shadow: 2px 1px 6px black;
 }
+
 header > p {
     font-family: var(--font-padrao);
     text-shadow: 2px 1px 6px black;
@@ -51,11 +58,13 @@ header > p {
     margin: auto;
     padding: 0px 50px 30px 50px;
 }
+
 nav {
     background-color: var(--cor3);
     padding: 10px;
     box-shadow: -1px 6px 5px 0px rgba(0, 0, 0, 0.384);
 }
+
 nav > a {
     color: white;
     text-decoration: none;
@@ -65,10 +74,12 @@ nav > a {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+
 nav > a:hover {
     background-color: var(--cor1);
     color: var(--cor3);    
 }
+
 main {
     min-width: 300px;
     max-width: 1000px;
@@ -79,60 +90,73 @@ main {
     border-bottom-right-radius: 10px;
     box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.411);
 }
+
 main h1, h2 {
     font-family: var(--font-android);
     color: var(--cor3);
 }
+
 main h2 {
     font-size: 1.3em;
     font-weight: normal;
     background-image: linear-gradient(to right,var(--corx), transparent);
     text-indent: 10px;
 }
+
 main p {
     text-indent: 20px;
     text-align: justify;
     line-height: 2em;
 }
+
 main a {
     color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
 }
+
 main a::after {
     content: '🔗';
 }
+
 main a:hover {
     text-decoration: underline;
 }
+
 main a:active {
     color: var(--cor1);
 }
+
 main strong {
     color: var(--cor3);
 }
+
 img {
     width: 100%;
 }
+
 img#pequena {
     max-width: 350px;
     display: block;
     margin: auto;
 }
+
 div {
     background-color: var(--cor3);
     margin: 0px -15px 30px -15px;
     padding: 20px;
-    padding-bottom: 55.8%;
-    position: relative;
+    height: 50vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 div > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
     width: 90%;
     height: 90%;
 }
+
 aside {
     background-color: var(--cor0);
     padding: 10px;
@@ -140,11 +164,13 @@ aside {
     border-radius: 10px;
     box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.342);
 }
+
 aside > ul {
     list-style-position: inside;
     columns: 2;
     list-style-type: '\2714\00A0';
 }
+
 aside > h3 {
     background-color: var(--cor2);
     padding: 10px;
@@ -153,6 +179,7 @@ aside > h3 {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 footer {
     background-color: var(--cor3);
     color: whitesmoke;
@@ -160,14 +187,17 @@ footer {
     margin: 20px 0px 0px 0px;
     padding: 5px;
 }
+
 footer > p {
     margin: 0px;
 }
+
 footer a {
     color: whitesmoke;
     text-decoration: none;
     font-weight: bold;
 }
+
 footer a:hover {
     text-decoration: underline;
 }
