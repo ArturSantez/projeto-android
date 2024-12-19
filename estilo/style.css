@@ -94,6 +94,7 @@ main {
 main h1, h2 {
     font-family: var(--font-android);
     color: var(--cor3);
+    margin: 10px 0px;
 }
 
 main h2 {
@@ -107,6 +108,7 @@ main p {
     text-indent: 20px;
     text-align: justify;
     line-height: 2em;
+    margin: 8px 0px;
 }
 
 main a {
