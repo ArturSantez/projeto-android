@@ -44,7 +44,7 @@ header {
 header > h1 {
     font-family: var(--font-destaque);
     font-weight: normal;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     font-size: 3em;
     text-shadow: 2px 1px 6px black;
 }
@@ -53,8 +53,7 @@ header > p {
     font-family: var(--font-padrao);
     text-shadow: 2px 1px 6px black;
     font-size: 1.2em;
-    padding-left: 50px;
-    padding-right: 50px;
+    margin: 0px 50px 30px 50px; 
 }
 
 nav {
