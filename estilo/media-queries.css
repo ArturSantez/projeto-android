@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width:992px) {  
+    main {
+        width: 700px;
+    }
+
+    div {
+        height: 388px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    header > h1 {
+        font-size: 4em;
+    }
+
+    main {
+        width: 990px;
+    }
+
+    div {
+        height: 500px;
+    }
+}
